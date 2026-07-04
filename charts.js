@@ -51,7 +51,7 @@ new Chart(attendanceCtx, {
       },
       {
         label: 'Attended',
-        data: [90, 55, 67],
+        data: [90, 55, 69],
         backgroundColor: '#F4B400'
       }
     ]
