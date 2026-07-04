@@ -42,7 +42,7 @@ const attendanceCtx = document.getElementById('attendanceChart');
 new Chart(attendanceCtx, {
   type: 'bar',
   data: {
-    labels: ['Animusika', 'Leadership Seminar', 'InfoSec Conference'],
+    labels: ['Animusika', 'Seminar', 'Conference'],
     datasets: [
       {
         label: 'Interested',
