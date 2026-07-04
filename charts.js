@@ -46,7 +46,7 @@ new Chart(attendanceCtx, {
     datasets: [
       {
         label: 'Interested',
-        data: [120, 80, 95],
+        data: [120, 80, 90],
         backgroundColor: '#1E7145'
       },
       {
