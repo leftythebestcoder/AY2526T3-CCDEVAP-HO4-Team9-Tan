@@ -42,16 +42,16 @@ const attendanceCtx = document.getElementById('attendanceChart');
 new Chart(attendanceCtx, {
   type: 'bar',
   data: {
-    labels: ['Animusika', 'TechTalks', 'Career Fair', 'Sportsfest', 'Org Bazaar'],
+    labels: ['Animusika', 'Leadership Seminar', 'InfoSec Conference'],
     datasets: [
       {
         label: 'Interested',
-        data: [120, 80, 95, 150, 60],
+        data: [120, 80, 95],
         backgroundColor: '#1E7145'
       },
       {
         label: 'Attended',
-        data: [90, 55, 70, 130, 40],
+        data: [90, 55, 70],
         backgroundColor: '#F4B400'
       }
     ]
