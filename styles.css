@@ -16,3 +16,9 @@ body {
   margin-bottom: 16px;
   color: #1a1a1a;
 }
+
+.chart-wrapper {
+  position: relative;
+  height: 280px;
+  width: 100%;
+}

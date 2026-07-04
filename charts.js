@@ -11,6 +11,7 @@ new Chart(registrationCtx, {
   },
   options: {
     responsive: true,
+    maintainAspectRatio: false,
     plugins: {
       legend: { position: 'bottom' }
     }
@@ -30,6 +31,7 @@ new Chart(formatCtx, {
   },
   options: {
     responsive: true,
+    maintainAspectRatio: false,
     plugins: {
       legend: { position: 'bottom' }
     }
@@ -56,6 +58,7 @@ new Chart(attendanceCtx, {
   },
   options: {
     responsive: true,
+    maintainAspectRatio: false,
     scales: {
       y: { beginAtZero: true }
     },
