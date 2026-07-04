@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WhatsUpDLSU - Responsive Dashboard</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container py-5">
+    <div class="text-center mb-5">
+      <h1 class="fw-bold">WhatsUpDLSU Dashboard</h1>
+      <p class="text-muted">Registration, Event Format, and Attendance Insights</p>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-lg-4 col-12">
+        <div class="chart-card">
+          <h5 class="chart-title">Registration Status</h5>
+          <canvas id="registrationChart"></canvas>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-12">
+        <div class="chart-card">
+          <h5 class="chart-title">Event Format Split</h5>
+          <canvas id="formatChart"></canvas>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-12">
+        <div class="chart-card">
+          <h5 class="chart-title">Interested vs. Attended</h5>
+          <canvas id="attendanceChart"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+  <script src="charts.js"></script>
+</body>
+</html>
